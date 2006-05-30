@@ -11,6 +11,7 @@ Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}-%{mversion}.t
 # Source0-md5:	c60c68aace4eb67ccba4282327b13fdc
 URL:		http://www.squirrelmail.org/
 Requires:	squirrelmail >= 1.4.6-2
+Requires:	squirrelmail-compatibility-2.0.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
