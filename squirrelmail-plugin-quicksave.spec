@@ -34,7 +34,7 @@ przypadkowego od¶wie¿enia lub prze³adowania strony.
 Na wtyczkê sk³ada siê javascript na stronie tworzenia wiadomo¶ci oraz
 formularz u¿ywany do zapisywania w lewym panelu. U¿ytkownik nie bêdzie
 nawet wiedzia³ o istnieniu wtyczki do czasu a¿ straci wiadomo¶æ i
-bêdzie w stanie j± odzyskaæ
+bêdzie w stanie j± odzyskaæ.
 
 %prep
 %setup -q -n %{_plugin}
