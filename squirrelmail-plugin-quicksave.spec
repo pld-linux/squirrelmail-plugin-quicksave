@@ -9,7 +9,7 @@ License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}-%{mversion}.tar.gz
 # Source0-md5:	c60c68aace4eb67ccba4282327b13fdc
-URL:		http://www.squirrelmail.org/
+URL:		http://www.squirrelmail.org/plugin_view.php?id=8
 Requires:	squirrelmail >= 1.4.6-2
 Requires:	squirrelmail-compatibility-2.0.4
 BuildArch:	noarch
