@@ -1,7 +1,7 @@
 %define		_plugin	quicksave
 %define		mversion	1.1.0
 Summary:	Plugin that protects messages during composition
-Summary(pl):	Wtyczka chroni±ca wiadomo¶ci w czasie ich tworzenia
+Summary(pl.UTF-8):   Wtyczka chroniÄ…ca wiadomoÅ›ci w czasie ich tworzenia
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.3
 Release:	1
@@ -26,15 +26,15 @@ It's all javascript on the Compose page, plus a form that we're using
 for storage in the left_main frame. User won't ever know that it's
 installed unless he have lost a message and it can be recovered.
 
-%description -l pl
-Wtyczka automatycznie zapisuj±ca tre¶æ wiadomo¶ci w czasie jej
-tworzenia. Chroni przed utrat± tworzonej wiadomo¶ci na skutek
-przypadkowego od¶wie¿enia lub prze³adowania strony.
+%description -l pl.UTF-8
+Wtyczka automatycznie zapisujÄ…ca treÅ›Ä‡ wiadomoÅ›ci w czasie jej
+tworzenia. Chroni przed utratÄ… tworzonej wiadomoÅ›ci na skutek
+przypadkowego odÅ›wieÅ¼enia lub przeÅ‚adowania strony.
 
-Na wtyczkê sk³ada siê javascript na stronie tworzenia wiadomo¶ci oraz
-formularz u¿ywany do zapisywania w lewym panelu. U¿ytkownik nie bêdzie
-nawet wiedzia³ o istnieniu wtyczki do czasu a¿ straci wiadomo¶æ i
-bêdzie w stanie j± odzyskaæ.
+Na wtyczkÄ™ skÅ‚ada siÄ™ javascript na stronie tworzenia wiadomoÅ›ci oraz
+formularz uÅ¼ywany do zapisywania w lewym panelu. UÅ¼ytkownik nie bÄ™dzie
+nawet wiedziaÅ‚ o istnieniu wtyczki do czasu aÅ¼ straci wiadomoÅ›Ä‡ i
+bÄ™dzie w stanie jÄ… odzyskaÄ‡.
 
 %prep
 %setup -q -n %{_plugin}
