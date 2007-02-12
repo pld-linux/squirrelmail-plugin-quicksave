@@ -1,7 +1,7 @@
 %define		_plugin	quicksave
 %define		mversion	1.1.0
 Summary:	Plugin that protects messages during composition
-Summary(pl.UTF-8):   Wtyczka chroniąca wiadomości w czasie ich tworzenia
+Summary(pl.UTF-8):	Wtyczka chroniąca wiadomości w czasie ich tworzenia
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.3
 Release:	1
