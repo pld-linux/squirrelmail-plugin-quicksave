@@ -4,14 +4,14 @@ Summary:	Plugin that protects messages during composition
 Summary(pl.UTF-8):	Wtyczka chroniąca wiadomości w czasie ich tworzenia
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}-%{mversion}.tar.gz
 # Source0-md5:	c60c68aace4eb67ccba4282327b13fdc
 URL:		http://www.squirrelmail.org/plugin_view.php?id=8
 Requires:	squirrelmail >= 1.4.6-2
-Requires:	squirrelmail-compatibility-2.0.4
+Requires:	squirrelmail-compatibility >= 2.0.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
